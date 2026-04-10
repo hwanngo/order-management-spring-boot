@@ -1,10 +1,7 @@
 delete from users where 1=1;
 insert into users(username, password, full_name) values('admin', '$2y$12$/n7Wru9M6PPot4beZhesY./NEtjL.GPTHye6slnbWl/kwgE47VNjq', 'Admin');
--- username: admin | password: admin
 insert into users(username, password, full_name) values('manager', '$2y$12$GB20E5ECa5Mb1.Uatez33.KJQzSKC4HimHnPnT/9QD55d/iZSpNyy', 'Manager');
--- username: manager | password: manager
 insert into users(username, password, full_name) values('sale', '$2y$12$wg1kVxsyfARWv/R2DJAqyevtApPXpm6Dvfg9rFvkcX1REfJ8SvLne', 'Sale');
--- username: sale | password: sale
 
 delete from roles where 1=1;
 insert into roles(role_name, description) values('ROLE_ADMIN', 'Admin');
